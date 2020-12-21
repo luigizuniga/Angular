@@ -1,3 +1,4 @@
+//Funcion anonima autoinvocada
 (function () {
     function saludar(nombre) {
         console.table('Hola ' + nombre);
