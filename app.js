@@ -1,10 +1,9 @@
+"use strict";
 //Funcion anonima autoinvocada
 (function () {
-    function saludar(nombre) {
-        console.table('Hola ' + nombre);
+    var mensaje = true;
+    if (true) {
+        var mensaje_1 = 'Hola Mundo';
     }
-    var wolverine = {
-        nombre: 'Logan'
-    };
-    saludar(wolverine.nombre);
+    console.log(mensaje);
 })();

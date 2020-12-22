@@ -1,12 +1,10 @@
 //Funcion anonima autoinvocada
 (function(){
-    function saludar(nombre: string) {
-        console.table('Hola ' + nombre);
+    let mensaje = true;
+
+    if(true){
+        let mensaje = 'Hola Mundo';
     }
-    
-    const wolverine = {
-        nombre: 'Logan'
-    };
-    
-    saludar( wolverine.nombre);
+ 
+    console.log(mensaje);
 })()
