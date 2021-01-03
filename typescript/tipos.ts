@@ -23,22 +23,4 @@
         nombre: 'Alex',
         edad: 31
     }
-    
-    //Template Literales 
-    const salida = `${ mensaje } edad ${ spiderman.edad } ${ spiderman.nombre } año ${ hoy.getUTCFullYear() }`;
-    console.table( salida );
-
-    //Parametros opcionales, Obligatorios y por defecto
-    function activar(quien: string, 
-                     objeto: string = 'batiseñal', 
-                     momento?: string) {
-        if( momento ){
-            console.log(`${ quien } activó la ${ objeto } en la ${ momento }`);
-        }else{
-            console.log(`${ quien } activó la ${ objeto }`);
-        }
-    }
-
-    activar('Gordon');
-    activar('Gordon','batiseñal','noche');
 })();
