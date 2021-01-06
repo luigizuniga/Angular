@@ -1,6 +1,4 @@
+import { Xmen } from './clases/xmen.class';
 
-
-
-const mensaje = 'Hola Mundo!';
-
-console.log( mensaje );
+const wolverine = new Xmen('Logan','Wolverine');
+wolverine.imprimir();
